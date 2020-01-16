@@ -1,12 +1,20 @@
 'use strict';
 
 const term = 'AAAAABBBCCCCDDEEEE';
-const characters = term.split('');
-const uniqueCharacters = new Set(characters);
+const freq = new Map();
+
+for (let character of term.split('')) {
+  if (freq.has(character)) {
+    freq.set(character, freq.get(character) + 1);
+  } else {
+    freq.set(character, 1);
+  }
+}
 
 let str = '';
-for(let character of uniqueCharacters){
-  str = str + character + characters.filter(item => item === character).length;
-}
+
+freq.forEach((value, key) => {
+  str = str + value + key;
+});
 
 console.log(str);
