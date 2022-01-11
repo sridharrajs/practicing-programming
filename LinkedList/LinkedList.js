@@ -131,24 +131,5 @@ class LinkedList {
     }
   
   }
-  
-  
-  // const list = new LinkedList();
-  // list.addLast(2);
-  // list.addLast(3);
-  // list.addLast(4);
-  // list.addFirst(99);
-  // list.indexOf(3);
-  // console.log('does the LinkedList contain 42? => ', list.contains(42));
-  // console.log('values in the LinkedList => ', list.print());
-  // list.removeFirst();
-  // console.log('values in the LinkedList => ', list.print());
-  // list.removeLast();
-  // console.log('values in the LinkedList => ', list.print());
-  // console.log('the size is ', list.size());
-  
-  // console.log('the list before reversing ', list.print());
-  // list.reverse();
-  // console.log('the list after reversing ', list.print());
 
   module.exports = LinkedList;

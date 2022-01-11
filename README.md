@@ -1,17 +1,17 @@
-# practicing-programming
+# Practicing-programming
 
 
 # Installing
 
 First, install the dependencies
 
-   npm i
+    npm i
 
 
 # Testing
 
 Run the respective tests by
 
-    ./node_modules/mocha/bin/mocha <test.js>
+    npx mocha <test.js>
 
 
